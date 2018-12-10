@@ -1,0 +1,233 @@
+/*设置页面的通用样式*/
+/*给各个模块添加边框方便布局*/
+/* #main,#footer {
+	border:1px solid #000;
+} */
+body {
+	margin:0;
+	padding:0;
+	font-size:14px;
+	font-family: 'Montserrat', sans-serif; /*设置字体的样式*/
+	font-weight: 400; /*设置字体的粗细*/
+	color: #333; /*字体默认颜色*/
+}
+/*将自带内外边距的设置为0*/
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl {
+	margin:0;
+	padding:0;
+}
+/*设置a样式*/
+a {
+	color:#fff;
+	text-decoration: none;
+}
+a:hover {
+	color: #D10024;
+}
+/*设置小图标颜色*/
+i {
+	color:#D10024;
+}
+/*将ul去掉*/
+ul {
+	list-style:none;
+}
+/*设置左右浮动*/
+.lf {
+	float:left;
+}
+.rt {
+	float:right;
+}
+/*开始设置内容样式*/
+/*设置页面头部*/
+#top {
+	width: 100%;
+	background-color: rgba(82, 81, 81, 0.24);	
+}
+/*设置页面头部内容样式*/
+#top-head {
+	width: 1170px;
+	height: 20px;
+	padding:10px 0; 
+	margin:0 auto;
+}
+/*设置页面头部左边列表样式*/
+#top-head ul li {
+	float:left;
+}
+#top-head ul li+li{
+	margin-left:30px;
+}
+ul li.top-li {
+	margin-left:0px;
+}
+/*图片换为#fff*/
+
+/*设置页面头部右边列表样式*/
+ul.rt li {
+	float:left;
+}
+li.rt-li {
+	margin-right:30px;
+}
+li.top-signin>a+a:hover{
+	color:#d10024;
+}
+li.top-signout{
+	display:none;
+}
+li.top-signout>a+a:hover{
+	color:#d10024;
+}
+/*设置页面头部第二部分的样式*/
+/*设置头部底部样式*/
+#top-foot {
+	width: 100%;
+	background-color: #E4E7ED	;
+}
+/*设置头部底部内容样式*/
+#foot-body {
+	width: 1170px;
+	height: 70px;
+	padding:10px 0;
+	margin:0 auto;
+}
+.top-ul li a{
+	color:#8490A5;
+}
+.top-rt-ul li a{
+	color:#8490A5;
+}
+.top-rt-ul>li{
+	position: relative;
+}
+ul.top-rt-ul>li.top-signout{
+	display:none;
+}
+ul.top-rt-ul>li:first-child>span.login-span{
+	display:none;
+}
+.top-login {
+	position:absolute;
+	top:0;
+	left:100%;
+	bottom:0;
+	border:1px solid #8490A5;
+	width: 73px;
+	color:rgb(88, 92, 99);
+	text-align: center;
+	display:none;
+}
+/*复选框样式*/
+#foot-sel,#foot-input,#foot-search {
+	margin-left:130px;
+	height:40px;
+	padding:15px 0;	
+}
+#foot-input,#foot-search {
+	margin-left:0px;
+}
+
+div.foot-borde {
+	border-left: 1px solid #E4E7ED;
+}
+#foot-sel select {
+	height: 40px;
+	width:150px;
+	font-size:16px;
+	border:0;
+	outline:0;
+	padding-left:15px;
+	border-radius:20px 0 0 20px;
+	box-sizing:border-box;
+}
+#foot-img{
+	background-color: #ccc;
+}
+/*input输入框样式*/
+#foot-input input {
+	width: 280px;
+	height: 40px;
+	font-size:14px;
+	border:0;
+	outline:0;
+	padding-left:15px;
+	box-sizing:border-box;
+}
+/*search样式*/
+#foot-search input {
+	color:#fff;
+	font-size:18px;
+	font-weight:700;
+	width: 100px;
+	height: 42px;
+	margin-top:-1px;
+	margin-left:-1px;
+	background-color: #D10024;
+	border:0;
+	outline:0;
+	padding-left:8px;
+	border-radius:0 20px 20px 0;
+	cursor: pointer;
+	box-sizing:border-box;
+}
+/*头部列表样式*/
+#foot-ul {
+	color:#8490A5;
+	margin-top:18px;
+}
+#foot-ul>li{
+	text-align: center;
+}
+#foot-ul li i {
+	color: #000;
+}
+li.ul-li {
+	margin-right:30px;
+}
+li.cart-list{
+	position: relative;
+}
+li.cart-list>span{
+	position: absolute;
+	top:-5px;
+	right:-10px;
+	border:1px solid #d10024;
+	padding:0 5px;
+	color:#fff;
+	border-radius:50%;
+	background-color: #d10024;
+}
+ul.cart-detail{
+	position: absolute;
+	top:100%;
+	left:-200px;
+	width: 220px;
+	padding:0 10px;
+	height: 200px;
+	z-index:99;
+	overflow-x:hidden;
+	display:none;
+}
+ul.cart-detail>li{
+	display: flex;
+	width: 220px;
+	background-color: #333;
+	justify-content: flex-start;
+	color: #e4e7ed;
+	border:1px solid #333;
+}
+div.cart-img{
+	width: 40%;
+}
+div.cart-img>a>img{
+	width: 80px;
+	height: 80px;
+}
+div.cart-list{
+	width: 60%;
+}
+div.cart-list>p+p{
+	margin-top:15px;
+}

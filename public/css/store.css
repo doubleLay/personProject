@@ -1,0 +1,334 @@
+.nav{
+    border-bottom:1px solid #E4E7ED;
+}
+div.container{
+    margin:0 auto;
+    width: 1170px;
+}
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding:15px 0;
+    border-radius: 0.25rem;
+  }
+  
+  .breadcrumb-item + .breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    color: #6c757d;
+    content: "/";
+  }
+  
+  .breadcrumb-item + .breadcrumb-item:hover::before {
+    text-decoration: underline;
+  }
+  .breadcrumb-item>a{
+      color:#8D99AE;
+  } 
+  .breadcrumb-item + .breadcrumb-item:hover::before {
+    text-decoration: none;
+  }
+/*商品列表模块*/
+div.product-store{
+    display: flex;
+    justify-content: space-around;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+div.store{
+    width: 280px;
+    margin-top:15px;
+}
+div.store>ul>li img{
+    width: 100%;
+}
+div.store>h3{
+    font-size:18px;
+}
+div.store>ul>li>h3>a{
+    color:#2B2D42;
+}
+
+div.store>ul>li{
+    display:flex;
+    flex-direction: column;
+    border:1px solid #E4E7ED;
+    margin-top:15px;
+    text-align: center;
+}
+div.store>ul>li>h3{
+    margin-bottom:15px;
+}
+div.store>ul>li>h4{
+    margin-bottom:15px;
+    color:#d10024;
+}
+div.store>ul>li>h4>del{
+    color: #8D99AE;
+    font-weight: 400;
+}
+div.store>ul>li>p{
+    margin-bottom:15px;
+}
+div.carousel-note{
+    width: 879px;
+    overflow: hidden;
+    position: relative;
+}
+ul.carousel-ul{
+    width: 879px;
+    height:1365px;
+}
+ul.carousel-ul>li{
+    width: 259px;
+    float:left;
+    border: 2px solid #E1E4EA;
+    margin:15px;
+    margin-bottom:70px;
+    position:relative;
+    background-color: #fff;
+}
+div.center-product1{
+    width: 100%;
+    text-align: center;
+}
+div.center-product1>img{
+    width: 100%;
+}
+div.center-product1>h3{
+	margin-top:10px;
+}
+div.center-product1>h3>a{
+	text-decoration: none;
+	color:#2B2D42;
+}
+div.center-product1>h3>a:hover{
+	color:#d10024;
+}
+div.center-product1>h4{
+	margin-top:10px;
+}
+div.center-product1>h4>span{
+	color:#d10024;
+	font-size:18px;
+}
+div.center-product1>h4>del{
+	color:#8D99AE;
+	font-weight:400;
+}
+span.pro-s1{
+    position: absolute;
+    top:15px;
+    right:15px;
+    background-color: #d10024;
+    color:#fff;
+    padding:5px 15px;
+}
+span.pro-n1{
+    position: absolute;
+    top:15px;
+    right:100px;
+    border:1px solid #d10024;
+    color:#d10024;
+    padding:5px 15px;
+}
+ul.center-product-ul{
+    width: 229px;
+    padding:0 15px;
+    margin-bottom:15px;
+}
+ul.center-product-ul:after{
+	content:"";
+	display:block;
+	clear: both;
+}
+ul.center-product-ul>li {
+	float:left;
+	margin-left:35px;
+	padding:6px 8px;
+	background-color: transparent;
+}
+ul.center-product-ul>li>a>i{
+	color:#000;
+}
+ul.center-product-ul>li:hover{
+	border-radius: 50%;
+	background-color: #E4E7ED;
+}
+ul.center-product-ul>li:hover i{
+	color:#d10024;
+}
+div.pro-bor1{
+    position:absolute;
+    bottom:-76px;
+    left:1px;
+    right:1px;
+    background-color:#ccc;
+    text-align: center;
+    padding:15px 0;
+    transition: all linear 0.2s;
+}
+div.pro-bor1>a{
+	background-color: #ef233c;
+	height: 40px;
+	padding:0 30px;
+	border:none;
+	outline:none;
+	border-radius:40px;
+	color:#fff;
+	line-height:38px;
+	border:2px solid transparent;
+	font-size:16px;
+	display:inline-block;
+    position: relative;
+    transition: all linear 0.2s;
+}
+
+div.pro-bor1>a>i{
+	position:absolute;
+	top:0;
+	left:0;
+	width: 40px;
+	height: 40px;
+	line-height:38px;
+	opacity:0;
+	color:#d10024;
+}
+ul.carousel-ul>li:hover {
+    border-color:#d10024;
+}
+div.pro-bor1:hover a{
+	padding:0 30px 0  50px;
+	color:#d10024;
+	border:2px solid #d10024;
+	background-color: #fff;
+}
+div.pro-bor1>a:hover i{
+	opacity:1;
+} 
+div.spanBox {
+    position:absolute;
+    width:300px;
+    height:20px;
+    bottom:2px;
+    left:50%;
+    text-align: center;
+    transform: translateX(-50%);
+}
+div.spanBox>span {
+	display:inline-block;
+    width:19px;
+    height:19px;
+    background-color:#E4E7ED;
+    text-align:center;
+    border-radius:50%;
+}
+div.carousel-note div.spanBox .active {
+    background-color:#d10024;
+    border:solid 1px #d10024;
+}
+div.topsell-carousel-note div.spanBox .active{
+	background-color:#d10024;
+    border:solid 1px #d10024;
+}
+ul.center-product-ul>li.tipp{
+	position: relative;
+}
+ul.center-product-ul>li.change{
+	position: relative;
+}
+ul.center-product-ul>li.view{
+	position: relative;
+}
+span.tooltipp{
+	position: absolute;
+	left:50%;
+	bottom:100%;
+	width: 80px;
+	padding:10px 25px;
+	transform:translateX(-50%);
+	background-color: #1e1f29;
+	color:#fff;
+	text-align: center;
+	opacity:0;
+}
+span.exchange{
+	position: absolute;
+	left:50%;
+	bottom:100%;
+	width: 80px;
+	padding:10px 20px;
+	text-align: center;
+	transform:translateX(-50%);
+	background-color: #1e1f29;
+	color:#fff;
+	opacity:0;
+}
+span.quickView{
+	position: absolute;
+	left:50%;
+	bottom:100%;
+	width: 80px;
+	padding:10px 20px;
+	text-align: center;
+	transform:translateX(-50%);
+	background-color: #1e1f29;
+	color:#fff;
+	opacity:0;
+}
+ul.center-product-ul>li:hover span{
+	opacity:0.8;
+}
+/*------------------------------------------------------------------*/
+/*分页---------------------------*/
+ul.pagenation{
+    display: flex;
+    padding-left: 0;
+    margin: 0 auto;
+    margin-top:20px;
+    margin-left:15px;
+    list-style: none;  
+}
+li.page-link{
+    position: relative;
+    display: block;
+    background-color: #fff;
+    border: 1px solid #dee2e6;    
+}
+ul.pagenation>li:first-child>.disabled{
+    background-color: #E4E7ED;
+    color:#fff;
+}
+ul.pagenation>li:last-child>.disabled{
+    background-color: #E4E7ED;
+    color:#fff;
+}
+li.page-link>a{
+    color:#333;
+    font-weight: 700;
+    text-decoration: none;
+    display:inline-block;
+    line-height: 10px;
+    padding:10px 10px 0 10px;
+}
+li.page-link>button{
+    color:#333;
+    border:none;
+    outline:none;
+    padding:6px 12px;
+    cursor: pointer;
+}
+ul.pagenation>li.disabled>a{
+    color:#fff;
+}
+li.page-link+li{
+    margin-left:15px;
+}
+li.page-link.active{
+    background-color: #d10024;
+}
+li.page-link.active>a{
+    color:#fff;
+}

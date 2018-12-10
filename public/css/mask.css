@@ -1,0 +1,44 @@
+div.container{
+    width: 1170px;
+    margin:0 auto;
+    height: 302px;
+}
+.mBox{
+    width: 300px;
+    height:300px;
+    border:1px solid #ccc;
+    position:relative;
+    float:left;
+    }
+    .mImg{
+        width: 300px;
+        height:300px;
+    }
+    .mask{
+        position:absolute;
+        width: 150px;
+        height: 150px;
+        background-color:green;
+        opacity:0.3;
+        display:none;
+    }
+    .mImg>img{
+        width:300px;
+        height: 300px;
+    }
+    div.lBox{
+        width: 300px;
+        height: 300px;
+        float:left;
+        position:relative;
+        border:1px solid #ccc;
+        display: none;
+        background: url("img/product02.png")
+    }
+    .s-mask{
+        position:absolute;
+        top:0;
+        left:0;
+        width: 300px;
+        height: 300px;
+    }

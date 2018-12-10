@@ -1,0 +1,38 @@
+body {
+    font-size:0.8rem;
+    font-weight:400;
+    font-family: 'Montserrat', sans-serif;
+}
+i {
+    color: #D10024;
+}
+a {
+    color:#fff;
+}
+a:hover {
+    color:#D10024;
+}
+.header_top {
+    background-color:#1E1F29;
+}
+.header_foot {
+    background-color:#15161D;
+}
+.header_select {
+    border-radius:3rem 0 0 3rem;
+}
+.header_button{
+    border-radius: 0 3rem 3rem 0;
+    background-color:#D10024;
+}
+.nav_border{
+    border-top:3px solid #D10024;
+    border-bottom:2px solid #E4E7ED;
+}
+a.nav_a{
+    color:#333 !important;
+    font-size:0.8rem;
+}
+a.nav_a:hover{
+    color:#D10024 !important;
+}

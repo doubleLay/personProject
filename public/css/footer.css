@@ -1,0 +1,114 @@
+#footer{
+	width: 100%;
+	background-color: #15161D;
+}
+.footer-1 {
+	width: 1170px;
+	margin:0 auto;
+	padding:60px 0;
+}
+.footer-1:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+/*最左边*/
+.one,.two,.three,.four {
+	width: 260px;
+	padding:0 20px;
+}
+.one>h1 {
+	margin-bottom:30px;
+	color:#fff;
+	font-size:24px;
+	font-weight:500;
+}
+.one>p {
+	margin-bottom:20px;
+	color:#B9BABC;
+	font-weight:500;
+}
+.footer-ul>li>a {
+	color:#B9BABC;
+	font-weight: 500;
+}
+.footer-ul li+li {
+	margin-top:15px;
+}
+.footer-ul>li>a:hover {
+	color:#D10024;
+}
+/*左边其次*/
+.two>h1 {
+	margin-bottom:30px;
+	color:#fff;
+	font-size:24px;
+	font-weight:500;
+}
+.two>ul>li>a {
+	color:#B9BABC;
+	font-weight: 500;
+}
+.two li+li {
+	margin-top:35px;
+}
+.two>ul>li>a:hover {
+	color:#D10024;
+}
+/*第三个*/
+.three>h1 {
+	margin-bottom:30px;
+	color:#fff;
+	font-size:24px;
+	font-weight:500;
+}
+.three>ul>li>a {
+	color:#B9BABC;
+	font-weight: 500;
+}
+.three li+li {
+	margin-top:22px;
+}
+.three>ul>li>a:hover {
+	color:#D10024;
+}
+/*第四个*/
+.four {
+	padding:0;
+}
+.four>h1 {
+	margin-bottom:30px;
+	color:#fff;
+	font-size:24px;
+	font-weight:500;
+}
+.four>ul>li>a {
+	color:#B9BABC;
+	font-weight: 500;
+}
+.four li+li {
+	margin-top:22px;
+}
+.four>ul>li>a:hover {
+	color:#D10024;
+}
+/*末尾的信息*/
+#footer-last {
+	width: 100%;
+	background-color: #1D1E25;
+}
+.footer-last-1 {
+	width: 1170px;
+	margin:0 auto;
+	padding:40px 0;
+}
+.footer-last-2 {
+	color:#B9BABC;
+}
+.foot-span{
+	display:flex;
+	justify-content: space-between;
+}
+.foot-span+.foot-span{
+	margin-top:15px;
+}
